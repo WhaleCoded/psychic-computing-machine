@@ -38,7 +38,8 @@ if __name__ == "__main__":
     with open(os.path.join(os.curdir, FILE_NAME), "r") as f:
         loaded_text: str = f.read()
 
-    # Please Note: it's is the same as its for this problem
+    # Please Note: "it's" is the same as "its" for this problem
+    # but "obi-wan" is not the same as "obiwan"
 
     your_solution = {}
 
